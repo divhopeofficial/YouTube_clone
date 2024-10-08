@@ -1,3 +1,73 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
 body {
     background-color: black;
+}
+/*top nav*/
+.top_nav{
+    display: flex;
+    align-content: center;
+    width: 100%;
+    gap: 20%;
+    margin: 10px;
+}
+.top_nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.top_nav a img {
+    width: 50px;
+    height: auto;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+.top_nav a p {
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+}
+form {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.search {
+    background-color: black;
+    padding: 20px;
+    width: 500px;
+    border-radius: 20px;
+    border: 1px solid white; 
+    
+} 
+.search::placeholder {
+    font-size: 20px; 
+    margin-left: 10px;
+} 
+.search_icon ,.mic, .video_plus, .notification, .accounts{
+    background-color: black; 
+    width: 25px;
+    height: auto;
+    border: 1px solid black; 
+    border-radius: 50%;
+    padding: 10px;
+
+}
+.accounts {
+    border-radius: 50%;
+    height: 25px;
+}
+ .top_right_icons {
+    margin-left: 10px;
+ }
+button {
+    background-color: black;
+    border-radius: 0 50% 0 0;
+    border: none;
+    
 }
