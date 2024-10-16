@@ -127,4 +127,44 @@ background-color: white;
 } 
 .sidebar ul li a img{
     width: 35px;
+} 
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px; 
+    width: 200px;
+    margin: 10px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border: none;
+}
+iframe {
+    width: 350px;
+
+} 
+.card_description {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 5px; 
+    padding: 10px;
+}
+.Card_text {
+display: flex;
+flex-direction: column;
+} 
+.Card_text h2 {
+    color: white; 
+    font-size: 12px;
+} 
+.Card_text p {
+    color: grey;
+    font-size: 12px;
+}
+.Uploader_image img {
+border-radius: 50%; 
+width: 30px;
 }
